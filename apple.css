@@ -1,0 +1,229 @@
+*{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+@font-face {
+	font-family:'iconfont';
+}
+.icon{
+	font-family: 'iconfont';
+}
+/*头部*/
+.top{
+	width: 100%;
+	height: 40px;
+	background: #444444;
+}
+.top .a{
+	width: 80%;
+	height: 40px;
+	margin: 0 auto;
+	/*background: red;*/
+}
+.top .a .guanggao{
+	float: right;
+	line-height: 40px;
+	color: #ccc;
+	font-size: 12px;
+}
+/*导航*/
+.gg{
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	color: #fff;
+	display: none;
+}
+.v:hover{
+	color: #D1D1D1;
+}
+.nav{
+	width: 100%;
+	height: 44px;
+	background: #000;
+	position: relative;
+	line-height: 44px;
+}
+.nav .nava{
+	/*float: left;*/
+	width: 80%;
+	height: 44px;
+	margin: 0 auto;
+	position: relative;
+	
+}
+.nav .nava .iconfont{
+	float: left;
+	color: #fff;
+	line-height: 44px;
+	font-size: 20px;
+}
+.nav .zi{
+	float: left;
+	height: 44px;
+	overflow: hidden;
+	margin-left: 7%;
+}
+/*@keyframes top{
+	from{
+		margin-left: 8%;
+	}
+	to{
+		margin-left: 2%;
+	}
+}*/
+.nav .zi .a{
+	line-height: 44px;
+	color: #fff;
+	font-size: 14px;
+	
+}
+@media only screen and (min-width:1200px ) {
+	
+}
+@media only screen and (min-width: 845px) and (max-width: 1200px) {
+	
+}
+@media only screen and (max-width:845px ) {
+	.nav .zi{
+		display: none;
+	}
+	.nav .v{
+		position: absolute;
+		top: 0px;
+		left: 50%;
+	}
+	.gg{
+		display: block;
+	}
+}
+/*banner*/
+.banner{
+	width: 100%;
+	height: 510px;
+	overflow: hidden;
+	background: #000;
+	position: relative;
+	text-align: center;
+}
+.banner .a{
+	height: 100%;
+}
+/*四个方块*/
+.kuai{
+	width: 100%;
+	/*height: auto;*/
+	margin-top: 2px;
+	/*background: red;*/
+	overflow: hidden;
+}
+.kuai .a{
+	float: left;
+	width:25%;
+	height: 200px;
+	overflow: hidden;
+	text-align: center;
+}
+.kuai .a:nth-child(1){
+	background: #000;
+}
+.kuai .a:nth-child(2){
+	background: #F2F2F2;
+}
+.kuai .a:nth-child(3){
+	background: linear-gradient(to top,#F2F2F2,#fafafa );
+}
+.kuai .a:nth-child(4){
+	background:linear-gradient(to top,#ECECEC,#fff );
+}
+/*.kuai .a .A{
+	width: 100%;
+	height: 100%;
+}*/
+@media only screen and (min-width: 1050px) {
+	
+}
+@media only screen and (min-width: 720px) and (max-width: 1050px) {
+	.kuai .a{
+		float: left;
+		width:50%;
+		height: 200px;
+		overflow: hidden;
+	}
+}
+@media only screen and (max-width:720px ) {
+	.kuai .a{
+		float: left;
+		width:100%;
+		height: 200px;
+		overflow: hidden;
+	}
+}
+/*.kuai .a .A{
+	margin-right: 2px;
+}*/
+/*span*/
+.zh{
+	width: 100%;
+	height: 51px;
+	background: #F2F2F2;;
+}
+.zhong{
+	width: 80%;
+	height: 50px;
+	margin: 2px auto 0px;
+	/*background: red;*/
+	border-bottom: 1px solid #D8D8D8;
+	line-height: 50px;
+	font-size: 12px;
+	color: #999999;
+	background: #F2F2F2;
+}
+.zhong .a{
+	font-size: 8px;
+}
+/*底部*/
+.di{
+	width: 100%;
+	height: 250px;
+	background: #F2F2F2;
+	padding-top: 20px;
+	overflow: hidden;
+}
+.dibu{
+	width: 80%;
+	height: 250px;
+	background: #F2F2F2;
+	margin: 0 auto;
+}
+.dibu .a{
+	float: left;
+	width: 20%;
+}
+.dibu .a .A{
+	font-size: 12px;
+}
+.dibu .a .B{
+	margin-top: 10px;
+}
+.dibu .a .B .bb{
+	display: block;
+	color: #666666;
+	font-size: 5px;
+	line-height: 20px;
+}
+@media only screen and (max-width:720px ) {
+	.dibu .a .B{
+		display: none;
+	}
+	.dibu .a{
+		width: 100%;
+		display: block;
+		/*margin-top: 20px;*/
+		border-bottom: 1px solid #CCCCCC;
+		line-height: 40px;
+	}
+}
